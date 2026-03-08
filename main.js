@@ -7,7 +7,7 @@ class InicioScene extends Phaser.Scene {
 
     preload(){
         // Carga la imagen del fondo para la pantalla de inicio
-        this.load.image("fondoInicio","fondo01.png");
+        this.load.image("fondoInicio","fondo1.png");
     }
 
     create(){
@@ -57,7 +57,7 @@ class TriviaScene extends Phaser.Scene {
 
     preload(){
         // Carga la imagen de fondo del juego
-        this.load.image("fondoJuego","fondo02.png");
+        this.load.image("fondoJuego","fondo2.png");
     }
 
     create(){
