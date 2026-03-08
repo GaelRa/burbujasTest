@@ -7,12 +7,12 @@ class InicioScene extends Phaser.Scene {
 
     preload(){
         // Carga la imagen del fondo para la pantalla de inicio
-        this.load.image("fondoInicio","fondo1.png");
+        this.load.image("fondo01.png","fondo1.png");
     }
 
     create(){
         // Agrega la imagen de fondo y ajusta su tamaño al canvas
-        this.add.image(0,0,"fondoInicio")
+        this.add.image(0,0,"fondo01.png")
             .setOrigin(0) // Para que la posición (0,0) sea la esquina superior izquierda
             .setDisplaySize(this.scale.width, this.scale.height); // Se adapta a cualquier pantalla
 
