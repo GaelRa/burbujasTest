@@ -57,12 +57,12 @@ class TriviaScene extends Phaser.Scene {
 
     preload(){
         // Carga la imagen de fondo del juego
-        this.load.image("fondoJuego","fondo2.png");
+        this.load.image("fondo2.png","fondo2.png");
     }
 
     create(){
         // Fondo adaptado a cualquier pantalla
-        this.add.image(0,0,"fondoJuego")
+        this.add.image(0,0,"fondo2.png")
             .setOrigin(0)
             .setDisplaySize(this.scale.width, this.scale.height);
 
